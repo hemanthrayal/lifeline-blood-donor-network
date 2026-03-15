@@ -47,4 +47,4 @@ LocalStorage (Browser Database)
 Admin credentials:
 
 Email: admin@lifeline.com  
-Password: admin123
+Password: admin@123
