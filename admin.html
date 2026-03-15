@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Admin Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>LifeLine Admin Panel</h1>
+<button onclick="logout()">Logout</button>
+</header>
+
+<div class="dashboard-container">
+
+<div class="card">
+<h2>System Statistics</h2>
+
+<p>Total Users: <span id="totalUsers"></span></p>
+<p>Total Donors: <span id="totalDonors"></span></p>
+<p>Total Requests: <span id="totalRequests"></span></p>
+
+</div>
+
+
+<div class="card">
+
+<h2>All Donors</h2>
+
+<div id="donorList"></div>
+
+</div>
+
+
+<div class="card">
+
+<h2>Emergency Requests</h2>
+
+<div id="requestList"></div>
+
+</div>
+
+
+<div class="card">
+
+<h2>System Control</h2>
+
+<button onclick="resetSystem()">Reset All Data</button>
+
+</div>
+
+</div>
+
+<script src="admin.js"></script>
+
+</body>
+</html>
